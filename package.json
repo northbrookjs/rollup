@@ -1,0 +1,43 @@
+{
+  "name": "@northbrook/rollup",
+  "version": "0.0.0",
+  "description": "Rollup your Northbrook packages",
+  "main": "dist/northbrook-rollup.js",
+  "scripts": {
+    "commit": "nb commit",
+    "build": "nb rollup",
+    "test": "nb eslint",
+    "preversion": "npm run build",
+    "release": "nb release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/northbrookjs/rollup.git"
+  },
+  "keywords": [
+    "northbrook",
+    "plugin",
+    "rollup",
+    "bundling"
+  ],
+  "author": "Tylor Steinberger <tlsteinberger167@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/northbrookjs/rollup/issues"
+  },
+  "homepage": "https://github.com/northbrookjs/rollup#readme",
+  "devDependencies": {
+    "@northbrook/eslint": "^2.0.1",
+    "eslint": "^3.13.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "northbrook": "^4.3.5",
+    "rollup-plugin-buba": "^1.0.1",
+    "rollup-plugin-commonjs": "^7.0.0",
+    "rollup-plugin-node-resolve": "^2.0.0"
+  },
+  "dependencies": {
+    "rollup": "^0.41.1"
+  }
+}
