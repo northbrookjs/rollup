@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "commit": "nb commit",
-    "build": "nb rollup && nb buba",
+    "build": "nb buba",
     "test": "nb eslint",
     "preversion": "npm run build",
     "release": "nb release"
@@ -33,7 +33,7 @@
     "eslint-config-standard": "^6.2.1",
     "eslint-plugin-promise": "^3.4.0",
     "eslint-plugin-standard": "^2.0.1",
-    "northbrook": "^4.3.6",
+    "northbrook": "^4.3.7",
     "rollup-plugin-buba": "^1.0.1",
     "rollup-plugin-commonjs": "^7.0.0",
     "rollup-plugin-node-resolve": "^2.0.0"
