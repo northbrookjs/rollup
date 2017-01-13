@@ -1,6 +1,6 @@
 {
   "name": "@northbrook/rollup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rollup your Northbrook packages",
   "main": "lib/index.js",
   "scripts": {
